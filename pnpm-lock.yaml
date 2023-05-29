@@ -34,8 +34,8 @@ importers:
         specifier: ^2.8.8
         version: 2.8.8
       prettier-plugin-tailwindcss:
-        specifier: ^0.3.0
-        version: 0.3.0(@ianvs/prettier-plugin-sort-imports@4.0.0)(prettier@2.8.8)
+        specifier: 0.0.0-insiders.0a1b1a6
+        version: 0.0.0-insiders.0a1b1a6(@ianvs/prettier-plugin-sort-imports@4.0.0)(prettier@2.8.8)
 
   apps/nextjs:
     dependencies:
@@ -3119,8 +3119,8 @@ packages:
     engines: {node: '>=4'}
     dev: false
 
-  /prettier-plugin-tailwindcss@0.3.0(@ianvs/prettier-plugin-sort-imports@4.0.0)(prettier@2.8.8):
-    resolution: {integrity: sha512-009/Xqdy7UmkcTBpwlq7jsViDqXAYSOMLDrHAdTMlVZOrKfM2o9Ci7EMWTMZ7SkKBFTG04UM9F9iM2+4i6boDA==}
+  /prettier-plugin-tailwindcss@0.0.0-insiders.0a1b1a6(@ianvs/prettier-plugin-sort-imports@4.0.0)(prettier@2.8.8):
+    resolution: {integrity: sha512-X5VNefa0p/sK8M0l6lvr2DK4QHP/LbH+/b4IQvicrEVTgdrKVkpoBI5hCtjR1bd0KW9wv9o57pd+tkEz0ZnlwA==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'

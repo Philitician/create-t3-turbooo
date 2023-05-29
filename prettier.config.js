@@ -1,8 +1,4 @@
-/** @typedef  {import("@ianvs/prettier-plugin-sort-imports").PluginConfig} SortImportsConfig*/
-/** @typedef  {import("prettier").Config} PrettierConfig*/
-/** @typedef  {{ tailwindConfig: string }} TailwindConfig*/
-
-/** @type { PrettierConfig | SortImportsConfig | TailwindConfig } */
+/** @type {import("prettier").Config & { [key:string]: any }} */
 const config = {
   arrowParens: "always",
   printWidth: 80,
@@ -13,8 +9,7 @@ const config = {
   tabWidth: 2,
   pluginSearchDirs: false,
   plugins: [
-    ,
-    require.resolve("@ianvs/prettier-plugin-sort-imports"),
+    require("@ianvs/prettier-plugin-sort-imports"),
     require("prettier-plugin-tailwindcss"),
   ],
   tailwindConfig: "./packages/config/tailwind",
