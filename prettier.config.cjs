@@ -11,7 +11,7 @@ const config = {
   semi: true,
   trailingComma: "all",
   tabWidth: 2,
-  // pluginSearchDirs: false,
+  pluginSearchDirs: false,
   plugins: [
     ,
     require.resolve("@ianvs/prettier-plugin-sort-imports"),
