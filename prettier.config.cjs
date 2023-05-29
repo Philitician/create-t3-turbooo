@@ -7,8 +7,6 @@ const config = {
   semi: true,
   trailingComma: "all",
   tabWidth: 2,
-  pluginSearchDirs: false,
-  plugins: ["prettier-plugin-tailwindcss"],
   tailwindConfig: "./packages/config/tailwind",
   importOrder: [
     "^(react/(.*)$)|^(react$)|^(react-native(.*)$)",
