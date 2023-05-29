@@ -17,17 +17,16 @@
     "lint:fix": "turbo lint:fix && manypkg fix",
     "type-check": "turbo type-check"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.0.0",
+    "@types/prettier": "^2.7.2",
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "0.0.0-insiders.0a1b1a6",
     "@acme/eslint-config": "^0.1.0",
     "@manypkg/cli": "^0.20.0",
     "eslint": "^8.41.0",
     "turbo": "^1.9.9",
     "typescript": "^5.0.4"
-  },
-  "devDependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "^4.0.0",
-    "@types/prettier": "^2.7.2",
-    "prettier": "^2.8.8",
-    "prettier-plugin-tailwindcss": "0.0.0-insiders.0a1b1a6"
   }
 }
