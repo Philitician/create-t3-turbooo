@@ -18,7 +18,6 @@
     "type-check": "turbo type-check"
   },
   "dependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "^4.0.0",
     "@types/prettier": "^2.7.2",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "0.0.0-insiders.0a1b1a6",
